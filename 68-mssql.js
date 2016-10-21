@@ -66,7 +66,7 @@ module.exports = function(RED) {
 
         this.on('close', function (done) {
             if (this.tick) { clearTimeout(this.tick); }
-            if (this.connection) {
+            if (this.connection && this.connection.connected) {
                 node.connection.close(function(err) {
                     if (err) { node.error(err); }
                     done();
