@@ -1,0 +1,40 @@
+{
+  "name": "node-red-node-mssql",
+  "version": "0.0.3",
+  "description": "A Node-RED node to read and write to a mssql database",
+  "dependencies": {
+    "mssql": "2.x"
+  },
+  "node-red": {
+    "nodes": {
+      "mssql": "68-mssql.js"
+    }
+  },
+  "author": {
+    "name": "Chad Caldwell",
+    "email": "chad.caldwell@us.ibm.com",
+    "url": "http://nodered.org"
+  },
+  "_id": "node-red-node-mssql@0.0.3",
+  "scripts": {},
+  "_shasum": "c9bb2c405739737245fb32d46395c167d893d7f8",
+  "_from": "node-red-node-mssql@*",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "caldweca",
+    "email": "chad@chadcaldwell.com"
+  },
+  "dist": {
+    "shasum": "c9bb2c405739737245fb32d46395c167d893d7f8",
+    "tarball": "https://registry.npmjs.org/node-red-node-mssql/-/node-red-node-mssql-0.0.3.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "caldweca",
+      "email": "chad@chadcaldwell.com"
+    }
+  ],
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/node-red-node-mssql/-/node-red-node-mssql-0.0.3.tgz"
+}
